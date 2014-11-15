@@ -1,0 +1,408 @@
+/* Стилі для контейнера body*/
+
+body {
+    background: #73C5E5 url(../img/img01.gif) repeat-y center top;
+    color: #666;
+    font-family: Arial, sans-serif;
+    font-size: 10pt;
+    margin: 0;
+    padding: 0;
+}
+
+/* Стилі для заголовків*/
+h1, h2, h3, h4, h5, h6 {
+	color: #60B7DE;
+    margin: 15px 0 0 0;
+    padding: 0;
+}
+
+/* Стилі для посилання*/
+a, a:visited {
+    color: #2180BC;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #60B7DE;
+	text-decoration: underline;
+}
+
+/* Стилі для HEADER */
+#header {
+    background: url(../img/header.jpg) no-repeat;
+    height: 139px;
+    margin: 0px auto;
+    padding: 0;
+	width: 960px;
+}
+
+/* Header -> Menu Top  */
+#topmenu {
+    padding-top: 10px;
+}
+
+/* Menu Top -> посилання */
+#topmenu a {
+    color: #FFFFFF;
+	float: left;
+    font-size: x-small;
+  	padding-left: 10px;
+}
+
+#topmenu img{
+    border: 0;
+}
+
+/* Menu Main */
+#menu {
+    background-color: #60B7DE;
+    margin: 0px auto;
+    padding: 5px 0px 6px 0px;
+	width: 960px;
+}
+
+/* Menu Main -> список маркерований */
+#menu ul {
+	list-style: none;
+    margin: 0px;
+	padding: 0px;
+}
+
+/* Menu Main -> список маркерований */
+#menu li {
+	display: inline;
+}
+
+/* Menu Main -> посилання */
+#menu a {
+    color: #FFFFFF;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 5px 10px;
+    text-decoration: none;
+	text-transform: uppercase;
+}
+
+#menu a:hover {
+	background-color: #73C5E5;
+}
+
+/* CONTENT */
+#content {
+    margin: 0px auto;
+    padding-top: 20px;
+    
+    width: 960px;
+}
+
+/* Заголовок h2 для CONTENT */
+#content h2 {
+    font-size: 1.3em;
+    padding:  0 0 15px 0;
+}
+
+/* Заголовок h3 для CONTENT */
+#content h3 {
+	font-size: 1.1em;
+}
+
+/* Заголовок h3, посилання для CONTENT */
+#content h3 a {
+    color: #60B7DE;
+	text-decoration: none;
+}
+
+/* Стилі для параграфу, маркерованого і нумерованого списку CONTENT */
+#content p, #content ul, #content ol {
+	line-height: 140%;
+}
+
+#right ul, #right ol {
+   margin-bottom: 10px;
+   margin-top: 0;
+   padding-bottom: 0;
+   padding-top: 0;
+}
+
+/* Стилі для фотографії CONTENT */
+.gallery {
+    border: 5px solid #ABDCEF;
+	float: left;
+    margin: 4px 35px 0 0;
+}
+
+.gallery_section {
+    border: 5px solid #ABDCEF;
+	float: left;
+	margin: 4px 15px 0 0;
+    
+}
+
+
+
+/* Стилі meta CONTENT */
+.meta {
+    background: #FAFAFA;
+    border: 1px solid #f2f2f2;
+    color: #66665E;
+    font-size: 11px;
+	padding: 7px 30px 7px 18px;
+}
+
+.meta_photo {
+    color: #66665E;
+    font-size: 11px;
+	padding: 0px 10px 0px 10px;
+}
+
+/* Стилі для блоку left CONTENT */
+#left {
+    background: url(../img/content_bg.gif) repeat;
+	float: left;
+    padding: 0 20px 40px 20px;
+    text-align: justify;
+	width: 620px;
+}
+
+#left img{
+    border: 0;
+}
+
+/* Стилі для таблиці CONTENT */
+.rowB
+{
+	background: #f0fbff;
+    border-style: dashed ;
+    border-width: 1px;
+    border-color: #73c5e5;
+    text-align: center;
+}
+
+.rowC
+{
+	background: #ffffff;
+    border-style: dashed ;
+    border-width: 1px;
+    border-color: #73c5e5;
+    text-align: center;
+}
+
+.rowD
+{
+	background: #bce0ed;
+    border-style: dashed ;
+    border-width: 1px;
+    border-color: #73c5e5;
+    text-align: center;
+}
+
+.rowE
+{
+	background: #f0fbff;
+    border-style: dashed ;
+    border-width: 1px;
+    border-color: #73c5e5;
+    text-align: left;
+}
+
+/* Стилі для блоку right CONTENT */
+#right {
+    background: url(../img/content_bg.gif) repeat;
+	float: right;
+    padding: 0 20px 40px 20px;
+	width: 210px;
+}
+
+/* FOOTER */
+#footer {
+	background: #aed5fc;
+    border-top: 2px solid #0080c0;
+    clear: both;
+    margin: 0px auto;
+    padding-bottom: 10px;
+	width: 960px;
+}
+
+#footer p {
+    color: #ffffff;
+	text-align: center;
+}
+
+#footer img {
+    border: 0;
+}
+
+
+/* Додаткові стилі */
+
+/* Поле форми*/
+#form_text{
+    background: #ffffff;
+    border: 1px solid #aed5fc;
+    color: #666666;
+    font: normal 12px Arial, Helvetica, sans-serif; 
+    padding: 3px 0 3px 0;
+    width: 420px;
+}
+
+#form_text1{
+    background: #ffffff;
+    border: 1px solid #aed5fc;
+    color: #666666;
+    font: normal 12px Arial, Helvetica, sans-serif; 
+    padding: 3px 0 3px 0;
+    width: 420px;
+}
+
+/* Поле форми*/
+#form_char{
+    background: #ffffff;
+    border: 1px solid #aed5fc;
+    color: #666666;
+    font: normal 12px Arial, Helvetica, sans-serif; 
+    padding: 3px 0 3px 0;
+    width: 120px;
+}
+
+/* Список Select*/
+#form_select{
+    background: #ffffff;
+    border: 1px solid #aed5fc;
+    color: #666666;
+    font: normal 12px Arial, Helvetica, sans-serif; 
+    padding: 3px 0 3px 0;
+}
+
+/* Поле пошуку */
+#search_text{
+    background: url('../img/icon_search.jpg') no-repeat 1px #ffffff;
+    border: 1px solid #aed5fc;
+    color: #666666;
+    font: normal 12px Arial, Helvetica, sans-serif; 
+    padding: 3px 0 3px 20px;
+    width: 165px;
+}
+
+#search_button, #vote_button, #result_button, #send_button, #add_button, #update_button, #delete_button{
+    border: 0;
+    height: 23px;
+}
+
+
+/* Кнопка пошуку */
+#search_button{
+    background: url('../img/button_search.jpg');
+    width: 60px;
+}
+
+/* Кнопка для голосування */
+#vote_button{
+    background: url('../img/button_poll.jpg');
+    width: 75px;
+}
+
+/* Кнопка для результатів голосування */
+#result_button{
+    background: url('../img/button_vote.jpg');
+    width: 75px;
+}
+
+/* Кнопка для добавлення */
+#add_button{
+    background: url('../img/button_add.jpg');
+    width: 50px;
+}
+
+/* Кнопка для оновлення */
+#update_button{
+    background: url('../img/button_update.jpg');
+    width: 60px;
+}
+
+/* Кнопка для видалення */
+#delete_button{
+    background: url('../img/button_delete.jpg');
+    width: 65px;
+}
+
+/* Кнопка відправлення */
+#send_button{
+    background: url('../img/button_send.jpg');
+    width: 75px;
+}
+
+/* Для виводу повідомлень */
+#not_error{
+    color: #3aa628;
+}
+
+/* Для виводу помилок валідації */
+#error{
+    color: #fb0808;
+}
+
+/* Голосування */
+#questions_vote{
+	text-align: center;
+}
+
+/* Шкала кількості проголосованих */
+.bar{
+    background: #60B7DE;
+    height: 10px;
+    margin-bottom: 10px;
+}
+
+.admin_wrap th, .admin_wrap tr, .admin_wrap td{
+    background: #f0fbff;
+    border-color: #73c5e5;
+    border-style: dashed ;
+    border-width: 1px;
+    padding: 3px 5px 3px 5px;
+}
+
+.admin_wrap a{
+    color: #666;
+    text-decoration: none;
+}
+
+/* form elements */
+form {
+    margin: 0;
+	padding: 0 10px;
+	border: 1px solid #f2f2f2; 
+	background-color: #FAFAFA; 
+}
+
+/* Стилі для друкування */
+.print img{
+    border: 0;
+}
+
+/* Стилі для pagination */
+ul#pagination{
+    text-align: center;
+    margin: 0;
+    padding:0;
+}
+
+ul#pagination li{
+    display: inline;
+    margin: 3px;
+}
+
+div#wrap {
+    
+    margin: 0px auto;
+}
+
+div#wrap a {
+    outline: none;
+}
+		
+div#wrap img {
+    border: 5px solid #ABDCEF;
+    padding: 0px;
+    margin: 4px 10px 0 0;
+}
+

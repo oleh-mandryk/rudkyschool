@@ -1,0 +1,89 @@
+/* Стилі для контейнера body*/
+body {
+    background: #73C5E5 url(../img/img01.gif) repeat-y center top;
+    color: #666;
+    font-family: Arial, sans-serif;
+    font-size: 10pt;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+
+/* Стилі для заголовків*/
+h1, h2, h3, h4, h5, h6 {
+	color: #60B7DE;
+	margin: 15px 0 0 0;
+    	padding: 0;
+}
+
+/* Стилі для HEADER */
+#header {
+    background: url('http://www.rudkyschool.lviv.ua/img/header.jpg') no-repeat;
+    height: 139px;
+    margin: 0px auto;
+    padding: 0;
+	width: 960px;
+}
+
+/* CONTENT */
+#content {
+    margin: 0px auto;
+    padding-top: 20px;
+    width: 960px;
+}
+
+/* Заголовок h2 для CONTENT */
+#content h2 {
+    font-size: 1.3em;
+}
+
+/* Стилі для блоку left CONTENT */
+#left {
+    float: left;
+    padding: 0 20px 40px 20px;
+	width: 620px;
+}
+
+/* FOOTER */
+#footer {
+	background: #aed5fc;
+    border-top: 2px solid #0080c0;
+    clear: both;
+    margin: 0px auto;
+    padding-bottom: 10px;
+	width: 960px;
+}
+
+#footer p {
+    color: #ffffff;
+	text-align: center;
+}
+
+#footer img {
+    border: 0;
+}
+
+/* Додаткові стилі */
+
+/* Поле форми*/
+#form_char{
+    background: #ffffff;
+    border: 1px solid #aed5fc;
+    color: #666666;
+    font: normal 12px Arial, Helvetica, sans-serif; 
+    padding: 3px 0 3px 0;
+    width: 120px;
+}
+
+/* Кнопка для голосування */
+#input_button{
+    background: url('../img/button_input.jpg');
+    border:0;
+    height: 23px;
+    width: 40px;
+}
+
+/* Для виводу помилок валідації */
+#error{
+    color: #fb0808;
+}

@@ -1,0 +1,79 @@
+body{
+    font: normal small Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+/*пропорционально уменьшаем размеры заголовков*/
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+h4 {
+    font-size: 0.9em;
+}
+
+h5 {
+    font-size: 1em;
+}
+
+h6 {
+    font-size: 0.8em;
+}
+
+/*убираем рамку вокруг картинок-ссылок*/
+img {border: 0;}
+
+input[type="submit"] {display: none;}
+
+*.nopr{
+    display: none;
+}
+
+#header, #footer, #right, #menu, #topmenu, #pagination{
+    display: none;
+}
+
+/* Стилі для таблиці CONTENT */
+.rowB
+{
+	background: #f0fbff;
+    border-style: dashed ;
+    border-width: 1px;
+    border-color: #73c5e5;
+    text-align: center;
+}
+
+.rowC
+{
+	background: #ffffff;
+    border-style: dashed ;
+    border-width: 1px;
+    border-color: #73c5e5;
+    text-align: center;
+}
+
+.rowD
+{
+	background: #bce0ed;
+    border-style: dashed ;
+    border-width: 1px;
+    border-color: #73c5e5;
+    text-align: center;
+}
+
+.rowE
+{
+	background: #f0fbff;
+    border-style: dashed ;
+    border-width: 1px;
+    border-color: #73c5e5;
+    text-align: left;
+}
